@@ -1,8 +1,5 @@
-# Basic Concepts
-
 This section will cover the basic concepts of web development. It will cover the following topics:
 
-- [Basic Concepts](#basic-concepts)
 - [Web Development Concepts](#web-development-concepts)
   - [Hierarchy of a Domain Name](#hierarchy-of-a-domain-name)
     - [From Right to Left:](#from-right-to-left)
@@ -267,8 +264,6 @@ The **extension** (or TLD - Top-Level Domain) is the suffix at the end of the do
 - The domain name you choose will likely be with you for a long time. Make sure you pick something that you won’t regret later.
 - Consider how the name fits your long-term brand, business goals, and audience.
 
-Here’s a refined guide on **How to Buy a Domain Name**:
-
 ## How to Buy a Domain Name
 
 Once you’ve chosen a domain name, the next step is to purchase it from a domain registrar. A domain registrar is a company authorized to sell and manage domain names. Here’s how you can buy a domain name:
@@ -302,8 +297,6 @@ Once you’ve chosen a domain name, the next step is to purchase it from a domai
 
 6. **Configure Your Domain**:
    - After purchasing the domain, you can configure it to point to your website, set up email addresses, and link it to your hosting provider.
-
-Here’s a guide on **How to Buy a Host and Upload Files to a Host**:
 
 ## How to Buy a Host and Upload Files to a Host
 
@@ -359,8 +352,6 @@ Here’s how you can upload your files:
 - After uploading the files, open a browser and visit your domain name (e.g., `www.yourwebsite.com`).
 - Check if the website loads correctly and all files are displayed properly.
 
-Here’s a guide on **How to Connect Your Domain and Host**:
-
 ## How to Connect Domain and Host
 
 Once you’ve purchased both a **domain name** and a **web hosting plan**, the next step is to **connect the two** so that your website can be accessed through your domain. Here’s how to do that:
@@ -397,8 +388,6 @@ Once you’ve purchased both a **domain name** and a **web hosting plan**, the n
 
 - After DNS propagation is complete, open a browser and enter your domain name (e.g., **www.yourdomain.com**).
 - Your website should now be live and connected to the hosting server.
-
-Here’s a guide on **How to Set Up Your Development Environment**:
 
 ## How to Set Up the Development Environment
 
