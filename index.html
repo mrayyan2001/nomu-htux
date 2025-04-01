@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./index.html" method="get">
+        <label for="first_number">Number 1</label>
+        <input type="number" name="first_number" id="first_number" required>
+        <label for="second_number">Number 2</label>
+        <input type="number" name="second_number" id="second_number" required>
+        <input type="submit" value="Sum">
+    </form>
+    <div id="result">
+
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const firstNumber = urlParams.get('first_number');
+        const secondNumber = urlParams.get('second_number');
+        if (firstNumber) {
+            document.getElementById('first_number').value = firstNumber;
+        }
+        if (secondNumber) {
+            document.getElementById('second_number').value = secondNumber;
+        }
+        if (firstNumber && secondNumber) {
+            const sum = parseInt(firstNumber) + parseInt(secondNumber);
+            document.getElementById('result').innerText = `The sum is: ${sum}`;
+        }
+    </script>
+</body>
+
+</html>

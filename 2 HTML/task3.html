@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task03</title>
+</head>
+
+<body>
+    <form action="confirm.php" method="post">
+        <h1>Your Information</h1>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="address">Delivery Address:</label> <br>
+        <textarea name="address" id="address"></textarea>
+
+        <h1>Your Order</h1>
+        Pizza topping:
+        <input type="radio" name="topping" id="supreme" value="supreme">
+        <label for="supreme">Supreme</label>
+        <input type="radio" name="topping" id="vegetarian" value="vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+        <input type="radio" name="topping" id="hawaiian" value="hawaiian">
+        <label for="hawaiian">Hawaiian</label>
+        <br>
+        Extra:
+        <input type="checkbox" name="cheese" id="Cheese" value="cheese">
+        <label for="Cheese">Extra Cheese</label>
+        <input type="checkbox" name="olives" id="Olives" value="olives">
+        <label for="Olives">Olives</label>
+        <input type="checkbox" name="Salami" id="Salami" value="salami">
+        <label for="Salami">Salami</label>
+        <br>
+        <label for="sauce">Pizza Sauce</label>
+        <select name="sauce" id="sauce">
+            <option value="tomato">Tomato</option>
+            <option value="bbq">BBQ</option>
+            <option value="pesto">Pesto</option>
+            <option value="white">White</option>
+            <option value="ranch">Ranch</option>
+            <option value="hot">Hot</option>
+        </select>
+        <br>
+        <button type="submit">Order</button>
+
+    </form>
+</body>
+
+</html>
